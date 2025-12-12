@@ -15,4 +15,5 @@ while [ $i -le 20 ]; do
     *)
       echo "$i"
   esac
+  i=$((i+1))
 done
