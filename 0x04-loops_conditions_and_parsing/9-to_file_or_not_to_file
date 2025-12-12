@@ -2,7 +2,7 @@
 #To file, or not to file
 if [ -e "school" ];then
   echo "school file exists"
-  if [ -n "school" ]; then
+  if [ -z "school" ]; then
     echo "school file  empty"
   else
     echo "school file is is not empty"
