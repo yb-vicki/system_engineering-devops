@@ -2,7 +2,7 @@
 #say hi on th 9th loop
 i=1
 while [ $i -le 10 ];do
-  if [ $i -eg 9 ];then
+  if [ $i -eq 9 ];then
     echo "Hi"
   fi
   echo "Best School"
