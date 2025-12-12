@@ -2,5 +2,5 @@
 #for loop to display list of content in current directory Where only the part of the name after the first dash (-) is displayed
 my_content=$(ls)
 for file in $my_content; do
-  cut -d'-' -f2 file
+  cut -d'-' -f2 $file
 done
