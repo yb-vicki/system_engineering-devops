@@ -2,10 +2,10 @@
 # Displays To infinity and beyond indefinitely and reacts to SIGTERM
 
 trap 'echo "I am invincible!!!"' SIGTERM
-./67-stop_me_if_you_can 
 
 while true
 do
     echo "To infinity and beyond"
     sleep 2
+    ./67-stop_me_if_you_can 
 done
