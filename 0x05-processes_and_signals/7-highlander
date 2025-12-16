@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
-# Highlander script
-trap '$(echo "I am invincible!!!")' SIGTERM
-while true; do
+# Displays "To infinity and beyond" indefinitely and reacts to SIGTERM
+
+trap 'echo "I am invincible!!!"' SIGTERM
+
+while true
+do
     echo "To infinity and beyond"
     sleep 2
 done
