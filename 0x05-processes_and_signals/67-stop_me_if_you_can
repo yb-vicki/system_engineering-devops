@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Stop 7-highlander without kill, killall, or pkill
 
-pkill -15 7-highlander
+pkill -f 7-highlander
