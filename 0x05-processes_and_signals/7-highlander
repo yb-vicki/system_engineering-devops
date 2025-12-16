@@ -5,6 +5,5 @@ trap 'printf "I am invincible!!!\n"' SIGTERM
 while :
 do
     printf "To infinity and beyond\n"
-    sleep 2 & wait $!
-    ./67-stop_me_if_you_can
+    sleep 2 
 done
