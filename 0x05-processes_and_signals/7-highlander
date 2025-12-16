@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 #my_script
-trap 'printf "I am invincible!!!\n"' SIGTERM
-
-while :
-do
-    printf "To infinity and beyond\n"
+trap 'echo "I am invincible!!!"' SIGTERM
+while true;do
+    echo "To infinity and beyond"
     sleep 2 
 done
