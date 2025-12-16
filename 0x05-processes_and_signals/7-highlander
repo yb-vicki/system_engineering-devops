@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#my_script
 trap 'printf "I am invincible!!!\n"' SIGTERM
 
 while :
