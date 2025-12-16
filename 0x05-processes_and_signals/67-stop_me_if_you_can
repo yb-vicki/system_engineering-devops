@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 # Stop 7-highlander without kill, killall, or pkill
 
-pid=$(pgrep -f 7-highlander)
-echo 15 > /proc/"$pid"/signal
+pkill -15 -f 7-highlander
